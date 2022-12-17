@@ -1,3 +1,3 @@
-# Primen
+# Primenum
 
 **Prime number calculator**
