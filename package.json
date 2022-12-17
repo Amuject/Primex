@@ -1,6 +1,6 @@
 {
   "name": "primex",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Prime number calculator",
   "author": "Wany <sung@wany.io> (https://wany.io)",
   "main": "./primex.js",
