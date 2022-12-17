@@ -7,7 +7,10 @@ const __dirname = path.dirname(__filename);
 const primes = [];
 for (const p of JSON.parse(fs.readFileSync(path.resolve(__dirname, './prime-numbers.json')))) primes.push(BigInt(p));
 
-function isPrime(n, k = 100) {
+function isPrime(n, k) {
+  if (!k) {
+    k = Math.max(5, n.length);
+  }
   n = BigInt(n);
   if (n <= 1n) {
     return false;
