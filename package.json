@@ -1,13 +1,13 @@
 {
-  "name": "primenum",
+  "name": "primex",
   "version": "0.9.0",
   "description": "Prime number calculator",
   "author": "Wany <sung@wany.io> (https://wany.io)",
-  "main": "./primen.js",
+  "main": "./primex.js",
   "license": "MIT",
   "exports": {
-    "require": "./primenum.js",
-    "import": "./primenum.mjs"
+    "require": "./primex.js",
+    "import": "./primex.mjs"
   },
   "keywords": [
     "primenumber",
@@ -15,9 +15,9 @@
     "number",
     "calculator"
   ],
-  "homepage": "https://github.com/wnynya/PrimeNum#readme",
+  "homepage": "https://github.com/wnynya/Primex#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wnynya/PrimeNum.git"
+    "url": "https://github.com/wnynya/Primex.git"
   }
 }
